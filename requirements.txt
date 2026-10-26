@@ -1,0 +1,15 @@
+pandas
+numpy
+yfinance
+spacy
+nltk
+underthesea
+scikit-learn
+pdfminer.six
+wordcloud
+matplotlib
+pyLDAvis
+chatterbot
+lxml
+tensorflow
+vnstock
