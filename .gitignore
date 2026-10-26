@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# ChatterBot: database sinh ra khi huấn luyện chatbot và corpus tự clone
+db.sqlite3
+*.sqlite3
+external_corpus/
+
+# Mô hình NER huấn luyện lại (giữ lại models/saved/lstm_sentiment.h5)
+models/saved/ner_model/
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
