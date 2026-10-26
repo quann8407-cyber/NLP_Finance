@@ -248,11 +248,13 @@ Hình được lưu tự động vào `results/<ngôn ngữ>/`:
 - **Dữ liệu chatbot tỷ số tài chính là bảng ánh xạ cố định** cho một số ít công ty và tỷ số, không phải truy vấn dữ liệu tài chính thời gian thực.
 - **Phụ thuộc dữ liệu bên ngoài**: Yahoo Finance, `vnstock` và việc clone corpus từ GitHub có thể thay đổi hoặc lỗi theo thời gian.
 - **Môi trường**: `requirements.txt` chưa ghim phiên bản và còn thiếu `textblob`; `pyLDAvis.sklearn` có thể không dùng được ở bản mới.
-- **Repo còn file sinh ra khi chạy** (`__pycache__/`, `db.sqlite3` của ChatterBot); nên thêm `.gitignore` nếu muốn repo gọn hơn.
 
 ---
 
 ## Tài liệu tham khảo
 
-- Hilpisch, Y. (2018). *Python for Finance: Mastering Data-Driven Finance* (2nd ed.). O'Reilly Media. Tài liệu nền tảng về Python, pandas và dữ liệu chuỗi thời gian tài chính (sách không có nội dung về sentiment, chatbot hay LDA).
-- *Machine Learning and Data Science Blueprints for Finance*, Chapter 10 (NLP). Docstring trong `core/english_pipeline.py`, `models/lda_topic_model.py`, `models/lstm_sentiment.py` và `models/ner_model.py` ghi các case study bám theo sách này. Bạn kiểm tra lại tên tác giả và nhà xuất bản trước khi ghi vào README.
+- Tatsat, H., Puri, S., & Lookabaugh, B. (2020). *Machine Learning and Data Science Blueprints for Finance: From Building Trading Strategies to Robo-Advisors Using Python*. O'Reilly Media. Tài liệu chính của dự án: ba case study trong Chapter 10 (Natural Language Processing) được triển khai lại cho cả tiếng Anh và tiếng Việt:
+  - Case Study 1: NLP and Sentiment Analysis–Based Trading Strategies
+  - Case Study 2: Chatbot Digital Assistant
+  - Case Study 3: Document Summarization
+- Dixon, M. F., Halperin, I., & Bilokon, P. (2020). *Machine Learning in Finance: From Theory to Practice*. Springer. Tài liệu tham khảo bổ sung về cơ sở lý thuyết học máy trong tài chính.
